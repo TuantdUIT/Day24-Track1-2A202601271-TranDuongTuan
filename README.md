@@ -1,6 +1,35 @@
 # 🎓 VinUniversity AI Talent Program — Track 1: AI Product Management
 ## Day 24: AI Product Financial Model & Unit Economics Lab!
 
+---
+
+## 📋 THÔNG TIN SINH VIÊN
+
+| Thông tin | Nội dung |
+|-----------|----------|
+| **Họ và tên** | Trần Dương Tuấn |
+| **MSSV** | 2A202601271 |
+| **Tên dự án** | AI Automation Assistant |
+| **Nhóm** | ☐ Build Phase  ☑ Cá nhân |
+
+---
+
+## 📝 DECISION NOTE (200-300 từ)
+
+**1. Căn cứ chọn ARPU & CAC:**
+
+Mức ARPU Base 159,000 VND/tháng được chọn dựa trên benchmark ngành SaaS AI tại thị trường Việt Nam, nơi mức giá này phù hợp với doanh nghiệp vừa và nhỏ (SME) cần giải pháp AI tự động hóa quy trình. Mức giá này thấp hơn đối thủ cạnh tranh (Jasper, Copy.ai) nhưng cao hơn mức entry-level, tạo cân bằng giữa khả năng tiếp cận khách hàng và biên lợi nhuận. CAC 320,000 VND phản ánh chi phí marketing kỹ thuật số (Google Ads, Content Marketing) tại thị trường Việt Nam, với thời gian hoàn vốn dưới 4 tháng cho phép mô hình tăng trưởng bền vững.
+
+**2. Giải trình AI Hidden Costs:**
+
+Hidden Costs = 40,000 VND (455% API Cost) bao gồm: Data Labeling để tạo training data chất lượng cao (15,000 VND), Model Retraining định kỳ hàng quý để cập nhật knowledge base (15,000 VND), và Human QA để review output trước khi deliver cho enterprise khách hàng (10,000 VND). Đây là chi phí mà hầu hết founder AI mới thường bỏ qua, dẫn đến ước tính COGS thấp hơn thực tế 30-50%. Mức hidden costs này đảm bảo mô hình kinh doanh không bị "bẫy lỗ" khi sản phẩm scale.
+
+**3. Sức khỏe tài chính & Plan B:**
+
+Với LTV/CAC = 3.29 và Runway = 20 tháng trong kịch bản Pessimistic, sản phẩm đáp ứng tiêu chuẩn VC (LTV/CAC > 3, Runway ≥ 12 tháng). Nếu kịch bản Pessimistic xảy ra (churn tăng 50%, CAC tăng 50%), Plan B bao gồm: (1) Giảm fixed cost từ 75M xuống 45M/tháng bằng cách chuyển team sang hybrid model; (2) Tập trung vào khách hàng enterprise với ARPU cao hơn; (3) Tăng cường retention bằng tính năng churn prevention sử dụng chính AI model. Với 1.2B VND initial cash và burn rate 45M/tháng trong Pessimistic, startup có đủ 26 tháng runway để điều chỉnh chiến lược.
+
+---
+
 > **Brief (Triết lý bài học):** Một sản phẩm AI có RAG/Agent chạy mượt ở Day 23 mới chỉ là thành công về kỹ thuật. Để sản phẩm sống sót và tăng trưởng thương mại, PM/Founder bắt buộc phải giải bài toán tài chính: Tính đúng chi phí biến đổi COGS (đặc biệt là AI Hidden Costs), làm chủ Unit Economics (CAC, LTV, Gross Margin), và thực hiện stress-test dòng tiền 3 kịch bản (Optimistic, Base, Pessimistic) để chứng minh khả năng sinh tồn (Runway ≥ 12 tháng).
 
 ---
